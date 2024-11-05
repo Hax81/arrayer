@@ -18,7 +18,7 @@
 // console.log(names);
 
 // //#######################################################################################
-// //4. Tar bort "Drogba" från array. Returvärdet är 7.
+// //4. Tar bort "Drogba" från array. Returvärdet är elementet som togs bort från array.
 
 // names.pop("Drogba");
 // console.log(names);
@@ -265,10 +265,42 @@
 // }
 
 // #######################################################################################
-//30. Använd words-arrayen ovan och en for-loop för att bygga en ny sträng som 
-//består av de första bokstäverna i varje ord. 
-//Logga ut den nya strängen.
+// //30. Använd words-arrayen ovan och en for-loop för att bygga en ny sträng som 
+// //består av de första bokstäverna i varje ord. 
+// //Logga ut den nya strängen.
 
-const words = ["banana", "apple", "kiwi", "strawberry", "peach"];
-const newArr =[];
+// const words = ["banana", "apple", "kiwi", "strawberry", "peach"];
+// let newArr =""; 
 
+// for(let fruit of words) {
+
+//   newArr += fruit[0]; //OBS! En string har i sig indexplatser för alla bokstäver! 
+//   //Så "b" i banana har indexplats 0 osv!
+  
+
+//   //console.log(newArr);
+//   // Om man väljer att logga till konsollen INNE i loopen så kommer 
+//   //loggningen att INGÅ o därmed skrivas ut i varje iteration  
+
+// }
+
+// console.log(newArr);  
+
+// #######################################################################################
+
+
+//31. Skriv en while-loop som itererar genom arrayen numbers [5, 8, 12, 20, 3]
+//och loggar varje tal tills summan av de loggade talen överstiger 25.
+
+
+const numbers = [5,8,12,20,3];
+let sum=0;
+let index=0; //börjar på index 0.
+
+while(sum < 25 ) {
+const number=numbers[index];
+console.log(number);
+sum+=number;
+index++;
+
+}
