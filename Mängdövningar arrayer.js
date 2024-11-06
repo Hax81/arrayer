@@ -293,14 +293,83 @@
 //och loggar varje tal tills summan av de loggade talen överstiger 25.
 
 
-const numbers = [5,8,12,20,3];
-let sum=0;
-let index=0; //börjar på index 0.
+// const numbers = [5,8,12,20,3];
+// let sum=0;
+// let index=0; //börjar på index 0.
 
-while(sum < 25 ) {
-const number=numbers[index];
-console.log(number);
-sum+=number;
-index++;
+// while(sum < 25 ) {
+// const number=numbers[index];
+// console.log(number);
+// sum+=number;
+// index++;
+
+// }
+
+
+//32. Använd en for-loop utan index för att summera alla värden i arrayen mixedNumbers. Logga ut summan.
+
+// const mixedNumbers = [3, -5, 12, -1, 8, -6];
+// let sum=0;
+
+// for(const number of mixedNumbers) {
+
+// sum+=number;
+
+
+// }
+
+// console.log(`Summan är ${sum}`); //Man kan som här även använda backtics för att injicera variabeln i strängen med $-tecken och {}.
+
+//33. Skapa en array temperatures (exempel nedan) med några temperaturer i Celsius. 
+//Använd en for-loop för att hitta den högsta temperaturen. 
+//Därefter, logga både högsta temperaturen och dess index i arrayen.
+
+// const temperatures = [15, 22, 19, 30, 28, 18, 25];
+
+// let highest=0;
+// let index=0;
+
+// for(let i=0; i<temperatures.length; i++) {
+
+// if(temperatures[i]>highest) {
+
+//   highest=temperatures[i]; //värdet i arrayen
+//   index=i; //indexplatsen
+// }
+
+// }
+
+// console.log(`The highest temperature is ${highest} at indexposition ${index}`);
+
+//34. Använd en for-loop för att räkna antalet ord i words-arrayen som innehåller fler än fem bokstäver.
+
+// const words = ["banana", "apple", "kiwi", "strawberry", "peach"];
+
+// let fiveletterWords=0;
+
+// for(i=0; i<words.length; i++) { //index börjar på 0, i 
+
+//   if(words[i].length>5) {
+
+//     fiveletterWords ++;
+
+//   }
+
+
+// }
+// console.log(`The number of words with more than five letters are ${fiveletterWords}`);
+
+//35. Skriv en while-loop som räknar upp talen från numbers-arrayen ovan tills ett udda tal hittas. 
+//Avbryt loopen vid första udda talet och logga resultatet.
+
+const numbers = [5,8,12,20,3];
+
+let count=0;
+let i=0;
+
+while(numbers= ) {
+
+
+
 
 }
